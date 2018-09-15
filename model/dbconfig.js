@@ -4,6 +4,6 @@ const config = {
     port:3306,
     user:'root',
     password:'root',
-    database:'rice'
+    database:'company'
 }
 module.exports = config;
