@@ -1,0 +1,65 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/*网页头部导航样式开始*/
+header{
+    width: 100%;
+    min-width: 1000px;
+    height: 80px;
+    background-color: #333333;
+}
+footer{
+    width: 100%;
+    min-width: 1000px;
+    height: 200px;
+    background-color: #333333;
+}
+.logo{
+    padding-top:20px;
+    float: left;
+}
+nav{
+    color: #eee;
+    float: left;
+}
+nav:hover{}
+/*网页头部导航样式结束*/
+/*网页版权部分样式开始*/
+.footer_top,.footer_end{
+    width:800px;
+    margin:0px auto 0px auto;
+    clear:both;
+    text-align:center;
+}
+.footer_top{
+    color:#9B2B0F;
+}
+.footer_dull_red,.footer_dull_red:hover{
+    color:#9B2B0F;
+    margin:0px 8px 0px 8px;
+}
+/*网页版权部分样式结束*/
+
+
+/*导航部分下拉菜单样式*/
+#dd_menu_top_down{
+    position:absolute;
+    width:80px;
+    text-align:left;
+    border:solid 1px #999;
+    border-top:0px;
+    display:none;
+    background-color:#FFF;
+    padding-left:10px;
+}
+*html #dd_menu_top_down{/*only IE6*/
+    right:30px;
+    top:25px;
+}
+*+html #dd_menu_top_down{/*only IE7*/
+    right:30px;
+    top:25px;
+}
+#dd_menu_top_down li{
+    float:none;
+}
